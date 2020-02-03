@@ -1,7 +1,7 @@
 import sys
 
 def reverse(in_string):
-  return in_string
+  return in_string[::-1]
   
   
 print("This is " + sys.argv[0])
